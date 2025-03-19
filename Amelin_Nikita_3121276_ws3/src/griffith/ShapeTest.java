@@ -1,3 +1,4 @@
+//Nikita Amelin 3121276
 package griffith;
 
 import static org.junit.Assert.*;

@@ -1,3 +1,4 @@
+//Nikita Amelin 3121276
 package griffith;
 
 public abstract class Shape {
