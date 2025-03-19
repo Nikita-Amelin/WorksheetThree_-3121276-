@@ -9,11 +9,15 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ShapeTest {
-
+	Circle c = new Circle(5);
+	Rhombus r = new Rhombus(6, 8);
+	RightAngledTriangle t = new RightAngledTriangle(6, 8);
 	
 	@Test
 	public void perimeterTest() {
-		fail("Not yet implemented");
+		assertEquals(31.4159, c.perimeter(), 0.0001);
+		assertEquals(20, r.perimeter(), 0.0001);
+		assertEquals(24, t.perimeter(), 0.0001);
 	}
 	
 	@Test
