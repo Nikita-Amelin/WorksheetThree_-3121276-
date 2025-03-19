@@ -29,7 +29,9 @@ public class ShapeTest {
 	
 	@Test
 	public void toStringTest() {
-		fail("Not yet implemented");
+		assertNotNull(c.toString());
+		assertNotNull(r.toString());
+		assertNotNull(t.toString());
 	}
 	
 }
