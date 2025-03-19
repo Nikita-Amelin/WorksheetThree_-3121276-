@@ -22,7 +22,9 @@ public class ShapeTest {
 	
 	@Test
 	public void areaTest() {
-		fail("Not yet implemented");
+		assertEquals(78.53975, c.area(), 0.0001);
+		assertEquals(20, r.perimeter(), 0.0001);
+		assertEquals(24, t.perimeter(), 0.0001);	
 	}
 	
 	@Test
